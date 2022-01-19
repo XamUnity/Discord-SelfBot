@@ -28,7 +28,7 @@ if __name__ == "__main__":
     except discord.ConnectionClosed:
         print("Connection closed.")
     except discord.HTTPException:
-        print("]Could not connect to discord.com")
+        print("Could not connect to discord.com")
     except discord.GatewayNotFound:
         print("The API is probably having an outage.")
     except Exception as e:
