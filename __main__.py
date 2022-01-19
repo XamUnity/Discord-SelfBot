@@ -13,6 +13,7 @@ ID - {}
 Status - {}
 """.format(
 self.bot.user.name, self.bot.user.discriminator, self.bot.user.id, self.bot.user.status
+    )
 )
 
 if __name__ == "__main__":
